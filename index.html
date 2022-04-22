@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./styles/home.css">
+
+    <title>E-commerce product page</title>
+</head>
+<body>
+    <!--header section inicio-->
+    <header class="header">
+        <a href="#" class="logo"><i class='bx bx-bot'></i>STORE</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+        </nav>
+
+        <div class="icons">
+            <div class='bx bx-menu' id="menu-btn"></div>
+            <div class='bx bx-search' id="search-btn"></div>
+            <div class='bx bx-cart' id="cart-btn"></div>
+            <div class='bx bx-user' id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-btn" placeholder="search here...">
+            <label for="search-box" class="bx bx-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class='bx bx-trash-alt'></i>
+                <img src="./images/featured1.png" alt="">
+                <div class="content">
+                    <h3>Buso 1</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty:1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class='bx bx-trash-alt'></i>
+                <img src="./images/featured2.png" alt="">
+                <div class="content">
+                    <h3>Buso 2</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty:1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class='bx bx-trash-alt'></i>
+                <img src="./images/featured3.png" alt="">
+                <div class="content">
+                    <h3>Buso 3</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty:1</span>
+                </div>
+            </div>
+            <div class="total">total: $19.69</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+        
+    </header>
+    <!--header fin-->
+
+    <!--home section inicio-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>New <span>Sweatshirt</span> COLLECTIONS 2022</h3>
+            <p>Latest arrival of the new Hanes Midweight Crewneck sweatshirt imported from the 2022 series, with a modern design.</p>
+            <a href="#" class="btn">show now</a>
+        </div>
+    </section>
+    <!--home section fin-->
+
+    <!--productos inicio-->
+    <section class="products" id="products">
+        <h1 class="heading"> Store <span>products</span> </h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./images/featured1.png" alt="">
+                    <h3>Hoodies</h3>
+                    <div class="price"> $30.99/- - 24.00/- </div>
+                    <div class="stars">
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/featured2.png" alt="">
+                    <h3>Shirts</h3>
+                    <div class="price"> $30.99/- - 24.00/- </div>
+                    <div class="stars">
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/featured3.png" alt="">
+                    <h3>Sweatshirts</h3>
+                    <div class="price"> $30.099/- - 24.00/- </div>
+                    <div class="stars">
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--productos fin-->
+<script type="text/javascript" src="./js/script.js"></script>
+
+</body>
+</html>
